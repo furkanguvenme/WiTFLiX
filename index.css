@@ -211,58 +211,64 @@ article {
 }
 
 footer {
+    margin-top: 70px;
+    padding-top: 20px;
+    width: 100%;
     display: flex;
     flex-direction: column;
+    align-items: center;
     background: #1d1c1c;
-    margin-top: 90px;
 }
 
 .last-icon {
     display: flex;
     flex-direction: row;
-    padding: 20 0 10 20;
+    font-size: 20px;
+    width: 100%;
+    padding-left: 60;
 }
 
 .last-icon i {
-    padding: 0 15;
+    padding-right: 30px;
 }
 
 .last-nav {
     display: flex;
     flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
 }
 
 .last-nav nav {
     display: flex;
     flex-direction: column;
-    justify-content: left;
-    padding-right: 90px;
+    margin: 20 20;
 }
 
 .last-nav nav a {
     text-decoration: none;
+    padding-bottom: 20;
     color: #9b9b9b;
-    padding-bottom: 15px;
-    font-size: 12px;
-}
-
-.last-nav nav:first-child {
-    padding-left: 20;
 }
 
 .hzm {
-    padding: 5;
-    font-size: 12;
+    width: 100%;
+}
+
+.hzm .hizmet {
     width: fit-content;
     color: #9b9b9b;
     border: 1px solid #9b9b9b;
-    margin-left: 20;
+    padding: 7px;
+    margin: -5px 0 0 20px;
 }
 
-.business {
+.hzm .business {
+    width: fit-content;
     color: #9b9b9b;
-    margin-left: 20;
-    font-size: 12px;
+    padding: 7px;
+    margin: 10 0 0 20px;
+    font-size: 14px;
 }
 
 .yeter {
