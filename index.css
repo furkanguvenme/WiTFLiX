@@ -1,0 +1,266 @@
+html{
+    font-family: Helvetica, sans-serif;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    color: white;
+    background-color: black;
+}
+
+.video-background {
+    width: 100%;
+    position: absolute;
+    top: 10px;
+    z-index: -1;
+}
+
+.video-background video {
+    object-fit: cover;
+    width: 100%;
+    height: 500px;
+}
+
+header {
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+
+.main-button {
+    width:max-content;
+    padding: 10px 20px 10px 5px;
+    background: white;
+    border: 2px solid black;
+    border-radius: 15px;
+    font-size: 18px;
+    font-weight: 600;
+    color: black;
+}
+
+.play {
+    color: black;
+}
+
+.logo {
+    /*color: red;
+    font-size: 24;
+    font-weight: bold;*/
+    width: 100px;    
+}
+
+header a {
+    text-decoration: none;
+    color: white;
+    padding: 0 10px;
+}
+
+input {
+    width: 120px;
+}
+
+article {
+    width: 60%;
+    margin-left: 45px;
+}
+
+.age {
+    width:fit-content;
+    border: 1px solid white;
+    padding: 1 5 1 5;
+    border-radius: 5px;
+}
+
+.raiting {
+    display: flex;
+    justify-content: space-between;
+    width: 350px;
+}
+
+.new {
+    color: red;
+}
+
+.arama {
+    margin-right: -22px;
+}
+
+.button {
+    max-width: max-content;
+    padding: 10px 20px 10px 5px;
+    background: white;
+    border: 2px solid black;
+    border-radius: 15px;
+    font-weight: bold;
+    margin: 0;
+    color: black;
+    font-size: 12px;
+}
+
+.text {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 50px 20px 0 20px;
+}
+
+.movie {
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    overflow: hidden;
+}
+
+.movie div {
+    min-width: 310px;
+    margin-right: 15px;
+}
+
+.item1{
+    display: flex;
+    flex-direction: column;
+    background-image: url("/pictures/one_piece.1.jpg");
+    width: 310px;
+    border-radius: 15px;
+    padding-left: 10px;
+    margin-left: 15px;
+}
+
+.item2{
+    display: flex;
+    flex-direction: column;
+    background-image: url("/pictures/Dr_Strange.jpg");
+    width: 310px;
+    border-radius: 15px;
+    padding-left: 10px;
+}
+
+.item3{
+    display: flex;
+    flex-direction: column;
+    background-image: url("/pictures/snow.jpg");
+    width: 310px;
+    border-radius: 15px;
+    padding-left: 10px;
+}
+
+.item4{
+    display: flex;
+    flex-direction: column;
+    background-image: url("/pictures/harry_potter2.jpg");
+    width: 310px;
+    border-radius: 15px;
+    padding-left: 10px;
+}
+
+.item5{
+    display: flex;
+    flex-direction: column;
+    background-image: url("/pictures/john_wick.jpg");
+    width: 310px;
+    border-radius: 15px;
+    padding-left: 10px;
+}
+
+.item6{
+    display: flex;
+    flex-direction: column;
+    background-image: url("/pictures/thor.jpg");
+    width: 310px;
+    border-radius: 15px;
+    padding-left: 10px;
+    margin-left: 15px;
+}
+
+.item7{
+    display: flex;
+    flex-direction: column;
+    background-image: url("/pictures/terminator_2.jpg");
+    width: 310px;
+    border-radius: 15px;
+    padding-left: 10px;
+}
+
+.item8{
+    display: flex;
+    flex-direction: column;
+    background-image: url("/pictures/the_green_mile.jpg");
+    width: 310px;
+    border-radius: 15px;
+    padding-left: 10px;
+}
+
+.item9{
+    display: flex;
+    flex-direction: column;
+    background-image: url("/pictures/truman_show.jpg");
+    width: 310px;
+    border-radius: 15px;
+    padding-left: 10px;
+}
+
+.item10{
+    display: flex;
+    flex-direction: column;
+    background-image: url("/pictures/the_wolf.jpg");
+    width: 310px;
+    border-radius: 15px;
+    padding-left: 10px;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    background: #1d1c1c;
+    margin-top: 90px;
+}
+
+.last-icon {
+    display: flex;
+    flex-direction: row;
+    padding: 20 0 10 20;
+}
+
+.last-icon i {
+    padding: 0 15;
+}
+
+.last-nav {
+    display: flex;
+    flex-direction: row;
+}
+
+.last-nav nav {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    padding-right: 90px;
+}
+
+.last-nav nav a {
+    text-decoration: none;
+    color: #9b9b9b;
+    padding-bottom: 15px;
+    font-size: 12px;
+}
+
+.last-nav nav:first-child {
+    padding-left: 20;
+}
+
+.hzm {
+    padding: 5;
+    font-size: 12;
+    width: fit-content;
+    color: #9b9b9b;
+    border: 1px solid #9b9b9b;
+    margin-left: 20;
+}
+
+.business {
+    color: #9b9b9b;
+    margin-left: 20;
+    font-size: 12px;
+}
