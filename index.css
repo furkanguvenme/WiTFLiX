@@ -33,7 +33,7 @@ header {
     width:max-content;
     padding: 10px 20px 10px 5px;
     background: white;
-    border: 2px solid black;
+    border: 1px solid black;
     border-radius: 15px;
     font-size: 18px;
     font-weight: 600;
@@ -69,7 +69,7 @@ article {
 .age {
     width:fit-content;
     border: 1px solid white;
-    padding: 1 5 1 5;
+    padding: 3px 7px 3px 7px;
     border-radius: 5px;
 }
 
@@ -91,7 +91,7 @@ article {
     max-width: max-content;
     padding: 10px 20px 10px 5px;
     background: white;
-    border: 2px solid black;
+    border: 1px solid black;
     border-radius: 15px;
     font-weight: bold;
     margin: 0;
@@ -263,4 +263,11 @@ footer {
     color: #9b9b9b;
     margin-left: 20;
     font-size: 12px;
+}
+
+.yeter {
+    border: 1px solid white;
+    width: fit-content;
+    padding: 3px 7px;
+    border-radius: 10px;
 }
