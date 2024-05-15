@@ -137,6 +137,11 @@ article {
     overflow: hidden;
 }
 
+.movie:hover {
+    overflow: auto;
+    scrollbar-width: 2px;
+}
+
 .movie div {
     min-width: 310px;
     margin-right: 15px;
@@ -247,6 +252,7 @@ footer {
     flex-direction: column;
     align-items: center;
     background: #1d1c1c;
+    bottom: 0;
 }
 
 .last-icon {
@@ -318,4 +324,8 @@ footer {
     width: fit-content;
     padding: 3px 7px;
     border-radius: 10px;
+}
+
+@media (max-width: 768px) {
+
 }
