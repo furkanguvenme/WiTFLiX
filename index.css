@@ -87,6 +87,18 @@ article {
     color: red;
 }
 
+.new:hover {
+    color: white;
+}
+
+.find {
+    color: black;
+}
+
+.find:hover {
+    color: gray;
+}
+
 .arama {
     margin-right: -22px;
 }
