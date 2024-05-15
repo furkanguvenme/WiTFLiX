@@ -61,6 +61,10 @@ header a {
     padding: 0 10px;
 }
 
+header a:hover {
+    color: gray;
+}
+
 input {
     width: 120px;
 }
