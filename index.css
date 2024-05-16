@@ -646,6 +646,20 @@ footer {
         margin-top: 10px;
     }
 
+    body .video-background {
+        display: none;
+    }
+
+    .picture {
+        position: fixed;
+        width: 100%;
+        height: 500px;
+        background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgb(0, 0, 0)), url("https://ew.com/thmb/hVBUytPjJxTgDQwfsONCN_YQ0E4=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/Deadpool-3-071023-3-9b6153f591634668ba35f12d3555b83e.jpg");
+        background-size: 100%;
+        background-repeat: no-repeat;
+        background-position-y: 50px;
+        z-index: -1;
+    }
     .popup {
         --burger-line-width: 1.125em;
         --burger-line-height: 0.125em;
@@ -853,4 +867,16 @@ footer {
         visibility: visible;
         opacity: 1;
     }
+}
+@media (max-width: 576px) {
+    .picture {
+    position: fixed;
+    width: 100%;
+    height: 300px;
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgb(0, 0, 0)), url("https://ew.com/thmb/hVBUytPjJxTgDQwfsONCN_YQ0E4=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/Deadpool-3-071023-3-9b6153f591634668ba35f12d3555b83e.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position-y: 50px;
+    z-index: -1;
+}
 }
