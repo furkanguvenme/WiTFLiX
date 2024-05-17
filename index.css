@@ -552,8 +552,12 @@ footer {
     align-items: center;
     justify-content: center;
     border-radius: 160px;
-    background-color: rgb(0, 0, 0);
+    background-color: transparent;
     transition: all 0.3s ease;
+}
+
+.mainbox:hover {
+    background-color: black;
 }
 
 .checkbox:focus {
@@ -621,6 +625,27 @@ footer {
     fill: white;
     font-size: 1.3em;
 }
+
+  /* Profile */
+  .tab {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 13px;
+    height: 13px;
+    overflow: hidden;
+    background-color: rgb(252, 252, 252);
+    padding: 10px;
+    border-radius: 50%;
+    cursor: pointer;
+    text-decoration: none;
+    transition: all 0.3s;
+    margin-left: 10;
+  }
+  .tab:hover {
+    background-color: rgb(227, 223, 223);
+  }
+    /* Profile */
 
 @media (max-width: 768px) {
 
